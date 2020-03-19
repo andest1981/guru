@@ -9,8 +9,8 @@ conf = os.path.realpath(os.path.join(os.path.dirname(__file__), '%s' % name))
 class Sets:
 
     def __init__(self):
-        self.LHOST = '127.0.0.1'
-        self.LPORT = 8080
+        self.LHOST = '127.0.0.53'
+        self.LPORT = 8989
         self.FQUERY = ''
         self.MQUERY = ''
         self.BQUERY = ''
@@ -24,7 +24,7 @@ class Sets:
         self.RPATH = 0
         self.ADMODE = 1
         self.CUSHDR0 = 'X-Online-Host'
-        self.VALHDR0 = 'go.cakap.com'
+        self.VALHDR0 = '52.219.124.148'
         self.CUSHDR1 = 'Connection'
         self.VALHDR1 = 'Keep-Alive'
         self.CUSHDR2 = ''
